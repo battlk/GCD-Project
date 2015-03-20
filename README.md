@@ -18,6 +18,7 @@ Once the data is unzipped, run_analysis.R can be run in the same directory that 
 Running the script with the data will produce the tidy.txt file. As mentioned above, using this file in later computation requires it to be imported with the read.table() function for best results.
 
 The script performs the following steps:
+
 1. Imports and merges the training and test data from the original dataset
 2. Extracts only the measurements related to mean and standard deviation
 3. Uses the activity labels provided in the original dataset to provide better descriptions for the activity which the measurements are taken from.
